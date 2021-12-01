@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214387696172",
+    "project_id": "handi-4ccb9",
+    "storage_bucket": "handi-4ccb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214387696172:android:0f9b842b17daeec24f2789",
+        "android_client_info": {
+          "package_name": "com.example.handi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214387696172-47v2h58cv101h58gqls4bbc92tt7kml4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIZ0PfgQlgMsXSoOU5wMW6_V9Jhy-Izws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214387696172-47v2h58cv101h58gqls4bbc92tt7kml4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
