@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -23,11 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
     Button english;
     Button hindi;
+    Button logout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         FirebaseFirestore db = FirebaseFirestore.getInstance();
+        //logout=findViewById(R.id.logout);
         english=findViewById(R.id.english);
         english.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,5 +49,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+//        logout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this, "Logout Successfully", Toast.LENGTH_SHORT ).show();
+//                CentralStorage cs = new CentralStorage(MainActivity.this);
+//                cs.clearData();
+//                cs.removeData("userid");
+//                startActivity(new Intent(MainActivity.this,login.class));
+//                MainActivity.this.finish();
+//            }
+//        });
     }
 }

@@ -8,13 +8,15 @@
     android:background="#6972fb"
     tools:context=".Welcome">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        tools:srcCompat="@drawable/ic_launcher_foreground"
-        android:textAlignment="center" />
+        android:gravity="center"
+        android:text="HandI"
+        android:textColor="#FFFFFF"
+        android:textSize="42dp" />
 
     <ProgressBar
         android:layout_width="wrap_content"
